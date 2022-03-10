@@ -1,0 +1,18 @@
+canvas{
+    animation-name: fgvk;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes fgvk{
+    from{
+        box-shadow: 1px 1px 38px red;
+    }
+    to{
+        box-shadow: 1px 1px 38px yellow;
+    }
+}
+
+.btn-success:hover{
+    background-color: pink;
+    color: purple;
+}
